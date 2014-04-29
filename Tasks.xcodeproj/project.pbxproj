@@ -21,6 +21,8 @@
 		3ACDBBBD190FFF1E00998987 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACDBB9F190FFF1E00998987 /* UIKit.framework */; };
 		3ACDBBC5190FFF1E00998987 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDBBC3190FFF1E00998987 /* InfoPlist.strings */; };
 		3ACDBBC7190FFF1E00998987 /* TasksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDBBC6190FFF1E00998987 /* TasksTests.m */; };
+		3ACDBBD21910042200998987 /* IANewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDBBD11910042200998987 /* IANewTaskViewController.m */; };
+		3ACDBBD51910043700998987 /* IATaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDBBD41910043700998987 /* IATaskViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		3ACDBBC2190FFF1E00998987 /* TasksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TasksTests-Info.plist"; sourceTree = "<group>"; };
 		3ACDBBC4190FFF1E00998987 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3ACDBBC6190FFF1E00998987 /* TasksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TasksTests.m; sourceTree = "<group>"; };
+		3ACDBBD01910042200998987 /* IANewTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IANewTaskViewController.h; sourceTree = "<group>"; };
+		3ACDBBD11910042200998987 /* IANewTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IANewTaskViewController.m; sourceTree = "<group>"; };
+		3ACDBBD31910043700998987 /* IATaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATaskViewController.h; sourceTree = "<group>"; };
+		3ACDBBD41910043700998987 /* IATaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATaskViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				3ACDBBB1190FFF1E00998987 /* IAViewController.m */,
 				3ACDBBB3190FFF1E00998987 /* Images.xcassets */,
 				3ACDBBA2190FFF1E00998987 /* Supporting Files */,
+				3ACDBBD01910042200998987 /* IANewTaskViewController.h */,
+				3ACDBBD11910042200998987 /* IANewTaskViewController.m */,
+				3ACDBBD31910043700998987 /* IATaskViewController.h */,
+				3ACDBBD41910043700998987 /* IATaskViewController.m */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -252,6 +262,8 @@
 			files = (
 				3ACDBBAC190FFF1E00998987 /* IAAppDelegate.m in Sources */,
 				3ACDBBA8190FFF1E00998987 /* main.m in Sources */,
+				3ACDBBD51910043700998987 /* IATaskViewController.m in Sources */,
+				3ACDBBD21910042200998987 /* IANewTaskViewController.m in Sources */,
 				3ACDBBB2190FFF1E00998987 /* IAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
